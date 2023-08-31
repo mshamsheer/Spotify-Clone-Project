@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/logo.png">
+    
+    <!-- Page Title -->
+    <title>Spotify - Web Player: Music for everyone</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main">
+        <!-- Side bar -->
+        <div class="side-bar">
+            <!-- Navigation -->
+            <div class="nav">
+                <!-- Navigation option 1 -->
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="http://">Home</a>
+                </div>
+                <!-- Navigation option 2 -->
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="http://">Search</a>
+                </div>
+            </div>
+            <!-- Library -->
+            <div class="library">
+                <!-- Library options -->
+                <div class="options">
+                    <!-- Library option 1 -->
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="http://">Your Library</a>
+                    </div>
+                    <!-- Library option 2 -->
+                    <div class="icon"> 
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div> 
+                <!-- Library boxes -->
+                <div class="lib-box">
+                    <!-- Library box 1 -->
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <!-- Library box 2 -->
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Sticky navigation -->
+            <div class="sticky-nav">
+                <!-- Sticky navigation icons -->
+                <div class="sticy-nav-icon">
+                    <img src="/assets/backward_icon.png">
+                    <img src="assets/forward_icon.png" class="hide">
+                </div>
+                <!-- Sticky navigation options -->
+                <div class="sticy-nav-options">
+                    <!-- Navigation option 1 -->
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <!-- Navigation option 2 -->
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App
+                    </button>
+                    <!-- Navigation option 3 -->
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <!-- Recently Played -->
+            <h2>Recently Played</h2>
+            <!-- Card container -->
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-tittle">Top 50-Global</p>
+                    <p class="card-info">This playlist is a testament to the uni..</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="assets/card6img.jpeg" class="card-img">
+                    <p class="card-tittle">Top 50-India</p>
+                    <p class="card-info">Take a melodic voyage through the heart..</p>
+                </div>
+                <!-- Add more cards here as needed -->
+            </div>
+            <!-- Trending now near you -->
+            <h2>Trending now near you</h2>
+            <!-- Card container -->
+            <div class="card-container">
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="assets/phraur.jpeg" class="card-img">
+                    <p class="card-tittle">Phir Aur Kya Cha..</p>
+                    <p class="card-info">This song captures the essence of unfulfilled...</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <img src="assets/card3img.jpeg" class="card-img">
+                    <p class="card-tittle">Mere Pass Tum</p>
+                    <p class="card-info"> heart-wrenching and emotionally charged..</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <img src="assets/dildiya.jpeg" class="card-img">
+                    <p class="card-tittle">Dil Diyan Gallan</p>
+                    <p class="card-info">This song tells a timeless tale of love..</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="card">
+                    <img src="assets/chalya.jpeg" class="card-img">
+                    <p class="card-tittle">Chaleya</p>
+                    <p class="card-info">Chaleya often allude to someone who has departed...</p>
+                </div>
+                <!-- Card 7 -->
+                <div class="card">
+                    <img src="assets/kali.jpeg" class="card-img">
+                    <p class="card-tittle">Kali Kali Zulfon..</p>
+                    <p class="card-info">The lyrics are filled with compliments...</p>
+                </div>
+                <!-- Add more cards here as needed -->
+            </div>
+            <!-- Sound of India -->
+            <h2>Sound of India</h2>
+            <!-- Card container -->
+            <div class="card-container">
+                <!-- Card 8 -->
+                <div class="card">
+                    <img src="assets/mumbai.jpeg" class="card-img">
+                    <p class="card-tittle">The Sound of Mu...</p>
+                    <p class="card-info">"Sound of Mumbai" is a captivating playlist..</p>
+                </div>
+                <!-- Card 9 -->
+                <div class="card">
+                    <img src="assets/kolkata.jpeg" class="card-img">
+                    <p class="card-tittle">The Sound of Kol...</p>
+                    <p class="card-info">Soundscapes of Kolkata: A Musical..</p>
+                </div>
+                <!-- Card 10 -->
+                <div class="card">
+                    <img src="assets/delhi.jpeg" class="card-img">
+                    <p class="card-tittle">The Sound of Del...</p>
+                    <p class="card-info"> This playlist isn't just a collection of songs..</p>
+                </div>
+                <!-- Card 11 -->
+                <div class="card">
+                    <img src="assets/chennai.jpeg" class="card-img">
+                    <p class="card-tittle">The Sound of Che...</p>
+                    <p class="card-info">you'll be transported to the bustling Chennai..</p>
+                </div>
+                <!-- Add more cards here as needed -->
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <!-- Music player -->
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/chalya.jpeg" class="img" height="60px" width="60px">
+                <div class="album-info">
+                    <p class="song-name">Chaleya</p>
+                    <p class="song-artist">Arijit Singh</p>
+                </div>
+                <div class="album-icons">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-items">
+                    <i class="fa-brands fa-spotify controls-icon"></i>
+                    <i class="fa-solid fa-music controls-icon"></i>
+                    <i class="fa-solid fa-icons controls-icon"></i>
+                    <i class="fa-solid fa-volume-high controls-icon"></i>
+                    <input type="range" class="controls-progres-bar">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
